@@ -1,0 +1,27 @@
+/* Nav - all - custom */
+
+/* title - all */
+.title{
+    display: block;    
+    margin-top: 20px;
+}
+
+.title p{
+    font-size: 3vw
+}
+
+.title :last-child{
+    font-size: 1.5vw
+}
+
+/* Images - home */
+.homeImages{
+    height: 300px;
+    overflow: hidden;
+    display: inline-block;
+        
+}
+
+.homeImages img{
+    margin: -300px 0 0 0;    
+}
