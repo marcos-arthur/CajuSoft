@@ -1,9 +1,11 @@
 /* Nav - all - custom */
 
 /* title - all */
+
 .title{
-    display: block;    
-    margin-top: 20px;
+    display: block;
+    margin-top: 20px;    
+    margin-bottom: 50px;
 }
 
 .title p{
@@ -12,6 +14,13 @@
 
 .title :last-child{
     font-size: 1.5vw
+}
+
+
+/* main - all */
+
+.main{
+    text-align: center;    
 }
 
 /* Images - home */
@@ -24,4 +33,5 @@
 
 .homeImages img{
     margin: -300px 0 0 0;    
+    width: 100%
 }
