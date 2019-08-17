@@ -31,7 +31,12 @@
         
 }
 
-.homeImages img{
+#img1{
     margin: -300px 0 0 0;    
+    width: 100%
+}
+
+#img2{
+    margin: -15px 0 0 0;
     width: 100%
 }
