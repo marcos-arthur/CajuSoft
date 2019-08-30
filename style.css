@@ -28,7 +28,11 @@
     height: 300px;
     overflow: hidden;
     display: inline-block;
-        
+    position: relative;        
+}
+
+.homeImages:hover .textInsideImage{
+    display: block;
 }
 
 #img1{
@@ -38,5 +42,16 @@
 
 #img2{
     margin: -15px 0 0 0;
-    width: 100%
+    width: 100%;    
+}
+
+.textInsideImage{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    background-color: aqua;
+    height: 300px;
 }
